@@ -32,7 +32,7 @@ AWS-Projects-Repo/
 ## 🔥 Projects Breakdown
 ### **1️⃣ Architect and Build an End-to-End AWS Web Application from Scratch**
 - **Goal:** Develop a full-stack web application leveraging multiple AWS services.
-- **Skills Used:** EC2, RDS, S3, IAM, CloudFront, Route 53.
+- **Skills Used:** API Gateway, Lambda, IAM, DynamoDB, Amplify.
 - **Key Learnings:** Scalability, security best practices, and cloud-native architectures.
 
 ### **2️⃣ How to Create a Static Website for Free Using Amazon S3**
