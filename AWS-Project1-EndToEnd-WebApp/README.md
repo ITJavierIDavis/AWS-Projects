@@ -1,47 +1,40 @@
-# AWS Project: Architect and Build an End-to-End AWS Web Application from Scratch
-
+# **AWS Project: Serverless Web Application on AWS**
 ## 🚀 Overview
-This project focuses on designing and deploying a fully functional web application using AWS services. The goal is to create a **scalable, secure, and highly available** architecture by leveraging AWS best practices.
+This project focuses on designing and deploying a fully functional **serverless** web application using **AWS Amplify, Lambda, API Gateway, DynamoDB, and IAM**. The goal is to create a **scalable, secure, and cost-efficient** architecture by leveraging AWS best practices.
 
 ## 🎯 Objectives
-- Deploy a web application with **frontend, backend, and database** components.
-- Ensure **high availability and fault tolerance** using AWS services.
-- Implement security best practices including **IAM roles, security groups, and encryption**.
+- Deploy a **serverless** web application with a **frontend, backend, and database**.
+- Ensure **high availability and fault tolerance** using AWS-managed services.
+- Implement security best practices including **IAM roles, access control, and encryption**.
 
 ## 🔧 AWS Services Used
-- **EC2** – Virtual machines for hosting the backend.
-- **RDS** – Managed relational database (MySQL/PostgreSQL).
-- **S3** – Static content storage for frontend hosting.
-- **CloudFront** – Content delivery network (CDN) for faster access.
-- **Route 53** – Domain name system (DNS) management.
-- **IAM** – Identity and Access Management for security.
-- **VPC** – Virtual Private Cloud for networking and security.
-- **Auto Scaling** – Automatically scales EC2 instances.
-- **Elastic Load Balancer (ELB)** – Distributes incoming traffic.
+- **AWS Amplify** – Manages frontend deployment and hosting.
+- **AWS Lambda** – Serverless compute for backend logic.
+- **Amazon API Gateway** – Exposes REST/GraphQL APIs to interact with Lambda.
+- **Amazon DynamoDB** – NoSQL database for storing application data.
+- **Amazon IAM** – Manages authentication, authorization, and security.
 
 ## 🏗 Architecture
-1. **Frontend:** Hosted on Amazon S3 and delivered via CloudFront.
-2. **Backend:** Deployed on EC2 instances inside an Auto Scaling group.
-3. **Database:** Managed MySQL/PostgreSQL database using Amazon RDS.
-4. **Networking:** Private subnets for backend security, public subnets for frontend.
-5. **Security:** IAM roles, security groups, and SSL certificates for encryption.
+1. **Frontend:** Deployed on AWS Amplify for seamless hosting and CI/CD.
+2. **Backend:** AWS Lambda functions process API requests.
+3. **Database:** Amazon DynamoDB stores application data in a NoSQL format.
+4. **API Management:** Amazon API Gateway routes client requests to Lambda.
+5. **Security:** IAM roles, API Gateway authentication, and Amplify Auth for user management.
 
 ## 📌 Implementation Steps
-1. **Set up an EC2 instance** and deploy the backend application.
-2. **Create an RDS instance** to store application data.
-3. **Deploy frontend on S3** and configure CloudFront for global delivery.
-4. **Set up a VPC** to define networking rules and security.
-5. **Configure an Application Load Balancer** to distribute traffic to backend servers.
-6. **Set up Auto Scaling** for handling increased traffic loads.
-7. **Secure the application** with IAM roles, security groups, and SSL encryption.
+1. **Set up AWS Amplify** for frontend hosting and CI/CD integration.
+2. **Deploy AWS Lambda functions** to handle backend logic.
+3. **Configure API Gateway** to expose Lambda functions as APIs.
+4. **Create a DynamoDB table** for data storage.
+5. **Secure the application** with IAM roles and API Gateway authentication.
 
 ## 🎯 Expected Learning Outcomes
-- Gain hands-on experience with AWS **networking, compute, and database** services.
-- Learn how to design **highly available and fault-tolerant** architectures.
-- Understand best practices in **security, scalability, and automation**.
+- Gain hands-on experience with **serverless computing** and AWS **managed services**.
+- Learn how to design **highly available, scalable, and event-driven** architectures.
+- Understand best practices in **IAM security, API authentication, and cost optimization**.
 
 ## 📢 Next Steps
-Once you complete this project, move on to integrating DevOps principles using **CI/CD pipelines** with AWS CodePipeline and GitHub Actions.
+Once you complete this project, move on to integrating **GraphQL APIs with AWS AppSync** and adding **Cognito for authentication**.
 
 ---
 
@@ -49,5 +42,5 @@ Once you complete this project, move on to integrating DevOps principles using *
 - Refer to the official [AWS Documentation](https://docs.aws.amazon.com/).
 - Reach out via **GitHub Issues** if you encounter problems!
 
-🚀 **Let's build and deploy a cloud-native application on AWS!**
+🚀 **Let's build and deploy a serverless web application on AWS!**
 
