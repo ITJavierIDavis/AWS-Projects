@@ -10,7 +10,8 @@ I am **Javier Davis**, a Computer Science graduate from **Mississippi State Univ
 I have achieved the following AWS certifications:
 - **AWS Certified Cloud Practitioner**
 - **AWS Certified Solutions Architect – Associate**
-- **Currently working towards AWS Certified Machine Learning – Specialty and AWS Certified DevOps Engineer – Professional**
+- **AWS Certified DevOps Engineer - Professional**
+- **Currently working towards AWS Certified Networking – Specialty**
 
 These certifications complement my background in **networking, security, automation, and cloud-native development**.
 
